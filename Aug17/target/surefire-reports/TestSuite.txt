@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 2, Errors: 0, Skipped: 4, Time elapsed: 44.442 s <<< FAILURE! - in TestSuite
+script.ValidLogin.openApp[http://localhost:4444/wd/hub, firefox](0)  Time elapsed: 7.307 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: '5400-TI12332', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 91.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210816143654, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 21272, moz:profile: C:\Users\prasad.cholli\AppD..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: 074e3908-5d64-4a03-a6a7-e05...}
+Session ID: 074e3908-5d64-4a03-a6a7-e05a0f349e5b
+
+script.InvalidLogin.openApp[http://localhost:4444/wd/hub, firefox](0)  Time elapsed: 12.44 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: '5400-TI12332', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 91.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210816143654, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 15540, moz:profile: C:\Users\prasad.cholli\AppD..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: 22891aa0-1fe1-4b9d-b246-c81...}
+Session ID: 22891aa0-1fe1-4b9d-b246-c81f1df6657c
+

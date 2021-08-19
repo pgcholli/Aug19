@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="TestFF(failed)">
+    <parameter name="browser" value="firefox"/>
+    <parameter name="hubUrl" value="http://localhost:4444/wd/hub"/>
+    <classes>
+      <class name="script.InvalidLogin">
+        <methods>
+          <include name="testInvalidLogin"/>
+          <include name="openApp"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- script.InvalidLogin -->
+      <class name="script.ValidLogin">
+        <methods>
+          <include name="testValidLogin"/>
+          <include name="openApp"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- script.ValidLogin -->
+    </classes>
+  </test> <!-- TestFF(failed) -->
+</suite> <!-- Failed suite [Suite] -->
